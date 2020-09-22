@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   alert(
     "hello welcome to the game\ngame rules:\n1.hit the mole when you see\n2.if you hit it successfully you get +1"
   );
+  alert("you have 60 SECONDS");
 
   var square = document.querySelectorAll(".square");
   var scoreHtml = document.getElementById("result");
