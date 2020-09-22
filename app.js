@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
     realFunction();
     square.forEach((s) => {
       console.log(s);
-      s.addEventListener("mouseup", () => updateScore(s));
+      s.addEventListener("click", () => updateScore(s));
     });
   }
 });
