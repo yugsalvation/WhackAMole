@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
     realFunction();
     square.forEach((s) => {
       console.log(s);
-      s.addEventListener("click", () => updateScore(s));
+      $(s).on("click touchstart", () => updateScore(s));
     });
   }
 });
